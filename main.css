@@ -1,0 +1,40 @@
+#myBtn{
+	float: right;
+	margin-top: 10px;
+}
+#circle {
+	width: 200px;
+	height: 200px;
+	margin: 10px auto;
+	background-color: tomato;
+	border-radius: 50%;
+	line-height: 200px;
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 1px 1px 1px cyan;
+	background-position: center;
+	background-size: 0%;
+	transition: all 1s;
+
+}
+
+.info {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.second-nav	{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	background-color: cadetblue;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 18px;
+}
